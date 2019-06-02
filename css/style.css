@@ -1,0 +1,103 @@
+.bestemming {
+    width: 100px;
+    z-index: 1;
+}
+body {
+    font-family: sans-serif;
+}
+
+#earth {
+    height: auto;
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    z-index: 1;
+}
+
+.tardis {
+    height: auto;
+    left: 10%;
+    position: absolute;
+    top: 25%;
+    width: 200px;
+    z-index: 1;
+}
+
+.toekomst {
+    background-color: coral;
+    border-style: none;
+    color: white;
+    font-size: 40px;
+    height: 50px;
+    position: absolute;
+    right: 25%;
+    top: 65%;
+    width: 200px;
+    z-index: 2;
+}
+
+.space {
+    height: auto;
+    left: 0;
+    min-height: 100%;
+    min-width: 1024px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -5;
+}
+
+
+.verleden {
+    background-color: coral;
+    border-style: none;
+    color: white;
+    font-size: 40px;
+    height: 50px;
+    left: 25%;
+    position: absolute;
+    top: 65%;
+    width: 200px;
+    z-index: 2
+}
+
+#waar {
+    color: white;
+    font-size: 50px;
+    left: 25%;
+    position: absolute;
+    right: 25%;
+    text-align: center;
+    top: 10%;
+    z-index: 5;
+}
+
+.random {
+    background-color: blueviolet;
+    border-style: none;
+    color: white;
+    font-size: 40px;
+    height: 50px;
+    position: absolute;
+    right: 44%;
+    top: 55%;
+    width: 200px;
+    z-index: 2;
+}
+
+section {
+    color: white;
+    left: 35%;
+    position: relative;
+    top: 520px;
+    z-index: 1;
+
+}
+
+.place {
+    background-color: blueviolet;
+    border-style: none;
+
+    color: white;
+    z-index: 5;
+}
